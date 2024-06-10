@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url('images.jpg') fixed center center/cover;
+    color: white;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 36px;
+}
+
+#parent {
+    /* border: 2px solid rgb(0, 255, 102); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_01 {
+    font-size: 1.1rem;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(217, 216, 216);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn_0 {
+    font-size: 1.2rem;
+    padding: 10px 40px 10px 40px;
+}
+
+#contanner {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+.cards {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    backdrop-filter: blur(2px);
+}
+
+.cards>div {
+    margin: 10px;
+}
+
+/* To_calculate_DOB */
+#To_calculate_DOB {
+    display: none;
+}
+
+
+/* To_calculate_weight_and_height */
+#To_calculate_weight_and_height {
+    display: none;
+}
+
+/* To_calculate_age */
+#To_calculate_age {
+    display: none;
+}

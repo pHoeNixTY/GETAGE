@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOB CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <div id="btn">
+            <button id="To_calculate_weight_and_height_btn" onclick="btn_3()" class="btn_01"> Calculate Weight and
+                Height</button>
+            <button id="To_calculate_DOB_btn" onclick="btn_1()" class="btn_01">Calculate Date of Birth</button>
+            <button id="To_calculate_age_btn" onclick="btn_2()" class="btn_01">Calculate age</button>
+        </div>
+        <div id="To_calculate_DOB" class="cards">
+            <h1>fill the Details</h1>
+            <div>
+                <input type="text" id="year_DOB" placeholder="Year" required>
+            </div>
+            <div>
+                <input type="text" id="month_DOB" placeholder="Month" required>
+            </div>
+            <button onclick="getvalue()" class="btn_0">Enter</button>
+        </div>
+        <div id="To_calculate_age" class="cards">
+            <h1>fill the Details</h1>
+            <div>
+                <input type="text" id="age_day" placeholder="Day" required>
+            </div>
+            <div>
+                <input type="text" id="age_month" placeholder="Month" required>
+            </div>
+            <div>
+                <input type="text" id="age_year" placeholder="Year" required>
+            </div>
+            <button onclick="getvalue_1()" class="btn_0">Enter</button>
+        </div>
+        <div id="To_calculate_weight_and_height" class="cards">
+            <h1>fill the Details</h1>
+            <div>
+                <input type="text" id="year" placeholder="Year" required>
+            </div>
+            <div>
+                <input type="text" id="month" placeholder="Month" required>
+            </div>
+            <button onclick="getvalue()" class="btn_0">Enter</button>
+        </div>
+        <div id="contanner"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
